@@ -1,0 +1,808 @@
+<Response>
+  <TransactionID>0</TransactionID>
+  <ErnstResponse>
+    <Request>
+      <ClientTransactionID></ClientTransactionID>
+      <TransactionID>0</TransactionID>
+      <Page></Page>
+      <City></City>
+      <County>Adams</County>
+      <State>WA</State>
+      <TransactionCode>100</TransactionCode>
+      <DeedNumberOfPages>3</DeedNumberOfPages>
+      <MortgageNumberOfPages>30</MortgageNumberOfPages>
+      <MortgageAmount>300000</MortgageAmount>
+      <OriginalDebtAmount></OriginalDebtAmount>
+      <UnpaidPrincipalBalance></UnpaidPrincipalBalance>
+      <EstimatedValue>500000</EstimatedValue>
+      <Title></Title>
+      <TitleAmount></TitleAmount>
+      <OriginalTitleAmount></OriginalTitleAmount>
+      <OriginalMortgageDate></OriginalMortgageDate>
+      <AssignmentPages>2</AssignmentPages>
+      <AssignmentNumber>1</AssignmentNumber>
+      <ReleasePages>4</ReleasePages>
+      <ReleaseNumber>1</ReleaseNumber>
+      <POAPages>2</POAPages>
+      <Mortgage>
+        <Index>
+          <NumberOfGrantors>1</NumberOfGrantors>
+          <NumberOfGrantees>1</NumberOfGrantees>
+          <NumberOfSurnames>1</NumberOfSurnames>
+          <NumberOfSignatures>1</NumberOfSignatures>
+        </Index>
+      </Mortgage>
+      <Deed>
+        <Index>
+          <NumberOfGrantors>1</NumberOfGrantors>
+          <NumberOfGrantees>1</NumberOfGrantees>
+          <NumberOfSurnames>1</NumberOfSurnames>
+          <NumberOfSignatures>1</NumberOfSignatures>
+        </Index>
+      </Deed>
+      <Assignment>
+        <Index>
+          <NumberOfGrantors>1</NumberOfGrantors>
+          <NumberOfGrantees>1</NumberOfGrantees>
+          <NumberOfSurnames>1</NumberOfSurnames>
+          <NumberOfSignatures>1</NumberOfSignatures>
+        </Index>
+      </Assignment>
+      <Release>
+        <Index>
+          <NumberOfGrantors>1</NumberOfGrantors>
+          <NumberOfGrantees>1</NumberOfGrantees>
+          <NumberOfSurnames>1</NumberOfSurnames>
+          <NumberOfSignatures>1</NumberOfSignatures>
+        </Index>
+      </Release>
+      <POA>
+        <Index>
+          <NumberOfGrantors>1</NumberOfGrantors>
+          <NumberOfGrantees>1</NumberOfGrantees>
+          <NumberOfSurnames>1</NumberOfSurnames>
+          <NumberOfSignatures>1</NumberOfSignatures>
+        </Index>
+      </POA>
+      <StateQuestions />
+    </Request>
+    <Data>
+      <Refacts>
+        <STABBR>WA</STABBR>
+        <ROFFICE>Adams County</ROFFICE>
+        <COUNTY>Adams</COUNTY>
+        <PAGE>WA005</PAGE>
+        <PAGEKEY2>WA018</PAGEKEY2>
+        <PHONE>509-659-3253</PHONE>
+        <EXT />
+        <FAX>509-659-3254</FAX>
+        <TIMEZONE>PST</TIMEZONE>
+        <ATTN>Attn: Real Estate Recording</ATTN>
+        <DEPT>Adams County Auditor</DEPT>
+        <PAYEE>Adams County Auditor</PAYEE>
+        <FEEPAY>Not required.</FEEPAY>
+        <MADDR1>210 West Broadway, Suite 200</MADDR1>
+        <MADDR2 />
+        <MCITYST>Ritzville, WA 99169</MCITYST>
+        <MCITY>Ritzville</MCITY>
+        <MZIP>99169</MZIP>
+        <CADDR1>210 West Broadway, Suite 200</CADDR1>
+        <CADDR2 />
+        <CCITYST>Ritzville, WA 99169</CCITYST>
+        <CCITY>Ritzville</CCITY>
+        <CZIP>99169</CZIP>
+        <HOURS>8:30AM-4:30PM</HOURS>
+        <TITLE>County Auditor</TITLE>
+        <TAT>2 days</TAT>
+        <TATNUM>2</TATNUM>
+        <DEED>General Index</DEED>
+        <MORTGAGE>General Index</MORTGAGE>
+        <COUNTYFIPS>53001</COUNTYFIPS>
+        <LASTUPD>12/11/19</LASTUPD>
+        <DEEDDESC>Deed</DEEDDESC>
+        <DEEDFEE>73</DEEDFEE>
+        <DEEDCD>11</DEEDCD>
+        <MORTDESC>Deed of Trust</MORTDESC>
+        <MORTFEE>74</MORTFEE>
+        <MORTCD>11</MORTCD>
+        <AMFEE>73</AMFEE>
+        <AMCD>11</AMCD>
+        <ASSNDESC>Assignment of Deed of Trust</ASSNDESC>
+        <ASSNFEE>15</ASSNFEE>
+        <ASSNCD>412</ASSNCD>
+        <SATDESC>Reconveyance/Satisfaction</SATDESC>
+        <SATFEE>73</SATFEE>
+        <SATCD>11</SATCD>
+        <ADDPGFEE>1</ADDPGFEE>
+        <ADDPGCD>24</ADDPGCD>
+        <NONSTDFEE>0</NONSTDFEE>
+        <NSCD>0</NSCD>
+        <SMPRNTFEE>0</SMPRNTFEE>
+        <SMPRCD>0</SMPRCD>
+        <LEGALFEE>73</LEGALFEE>
+        <LEGALCD>11</LEGALCD>
+        <ADDTYPE1>162</ADDTYPE1>
+        <ADDFEE1>50</ADDFEE1>
+        <ADDCD1>426</ADDCD1>
+        <ADDTYPE2>163</ADDTYPE2>
+        <ADDFEE2>88.88</ADDFEE2>
+        <ADDCD2>0</ADDCD2>
+        <ADDTYPE3>109</ADDTYPE3>
+        <ADDFEE3>1</ADDFEE3>
+        <ADDCD3>36</ADDCD3>
+        <ADDTYPE4>0</ADDTYPE4>
+        <ADDFEE4>0</ADDFEE4>
+        <ADDCD4>0</ADDCD4>
+        <ADDTYPE5>0</ADDTYPE5>
+        <ADDFEE5>0</ADDFEE5>
+        <ADDCD5>0</ADDCD5>
+        <ADDTYPE6>0</ADDTYPE6>
+        <ADDFEE6>0</ADDFEE6>
+        <ADDCD6>0</ADDCD6>
+        <DESC1>Real Estate Excise Tax</DESC1>
+        <TAX1>0.0153</TAX1>
+        <TAX1CD>147</TAX1CD>
+        <DESC2>Mortgage Tax</DESC2>
+        <TAX2>0</TAX2>
+        <TAX2CD>0</TAX2CD>
+        <DESC3 />
+        <TAX3>0</TAX3>
+        <TAX3CD>0</TAX3CD>
+        <TAXNOTE>WAT05</TAXNOTE>
+        <SEARCH>Y</SEARCH>
+        <COPYFEE>1</COPYFEE>
+        <COPYCD1>11</COPYCD1>
+        <COPYFEE2>1</COPYFEE2>
+        <COPYCD2>24</COPYCD2>
+        <CERTFEE>3</CERTFEE>
+        <CERTCD>132</CERTCD>
+        <DOCSYSTEM>Auditors File #</DOCSYSTEM>
+        <DSEXAMPLE />
+        <FEENOTE1>WA001</FEENOTE1>
+        <FEENOTE2>WACAP</FEENOTE2>
+        <FEENOTE3>WAASN</FEENOTE3>
+        <RECNOTE1 />
+        <RECNOTE2 />
+        <RECNOTE3>WAERR</RECNOTE3>
+        <BLASSN>N</BLASSN>
+        <BLREL>N</BLREL>
+        <ARNUM>0</ARNUM>
+        <ARTYPE />
+        <DOCRETURN />
+        <SASE>A</SASE>
+        <SUBDOCS>N</SUBDOCS>
+        <LDIND>a</LDIND>
+        <LDDESC>Legal description required with all instruments to be recorded.</LDDESC>
+        <CAPFEE>73</CAPFEE>
+        <CAPCD>392</CAPCD>
+        <C1 />
+        <PIN>y</PIN>
+        <PINNAME>Tax ID # or Parcel #</PINNAME>
+        <PINON>a</PINON>
+        <PINFORM>0-000-00-000-0000</PINFORM>
+        <PINNOTE />
+        <WEBADDR>www.co.adams.wa.us</WEBADDR>
+        <FIPSB>53001</FIPSB>
+        <UPDATED></UPDATED>
+      </Refacts>
+    </Data>
+    <SupplementalAddress>
+      <Address>
+        <Type>Trustee</Type>
+        <Name />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State />
+        <Zip />
+        <Phone />
+        <Fax />
+        <Email />
+      </Address>
+      <Address>
+        <Type>Payee</Type>
+        <Name />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State />
+        <Zip />
+        <Phone />
+        <Fax />
+        <Email />
+      </Address>
+    </SupplementalAddress>
+    <Display>
+      <Calculation>
+        <Mortgage>
+          <IndexFee>0</IndexFee>
+          <Fee>133.5</Fee>
+          <Tax>0.00</Tax>
+          <RoundedMortgage>0</RoundedMortgage>
+          <StateTax>0.00</StateTax>
+          <CountyTax>0.00</CountyTax>
+          <CityTax>0.00</CityTax>
+        </Mortgage>
+        <Deed>
+          <IndexFee>0</IndexFee>
+          <Fee>105.5</Fee>
+          <Tax>6755.00</Tax>
+          <RoundedDeed>500000</RoundedDeed>
+          <StateTax>5500.00</StateTax>
+          <StateMansionTax>0.00</StateMansionTax>
+          <StateNonMansionTax>0.00</StateNonMansionTax>
+          <BuyerSplitState>0.00</BuyerSplitState>
+          <SellerSplitState>5500.00</SellerSplitState>
+          <CountyTax>1255.00</CountyTax>
+          <BuyerSplitCounty>0.00</BuyerSplitCounty>
+          <SellerSplitCounty>1255.00</SellerSplitCounty>
+          <CityTax>0.00</CityTax>
+          <BuyerSplit>0.00</BuyerSplit>
+          <BuyerSplitRate>0</BuyerSplitRate>
+          <SellerSplit>0.00</SellerSplit>
+          <SellerSplitRate>0</SellerSplitRate>
+          <BuyerSellerNote />
+          <RoundedDeedState>0</RoundedDeedState>
+          <RoundedDeedCounty>0</RoundedDeedCounty>
+          <RoundedDeedCity>0</RoundedDeedCity>
+        </Deed>
+        <Assignment>
+          <IndexFee>0</IndexFee>
+          <Fee>19</Fee>
+        </Assignment>
+        <Release>
+          <IndexFee>0</IndexFee>
+          <Fee>106.5</Fee>
+        </Release>
+        <POA>
+          <IndexFee>0</IndexFee>
+          <Fee>104.5</Fee>
+        </POA>
+        <HUD>
+          <HUDLine>
+            <LineNumber>1109</LineNumber>
+            <LineDescription>Lenders Coverage</LineDescription>
+            <TitlePremium>0</TitlePremium>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1110</LineNumber>
+            <LineDescription>Owners Coverage</LineDescription>
+            <OwnersTitlePremium>0</OwnersTitlePremium>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1201</LineNumber>
+            <LineDescription>Recording fees</LineDescription>
+            <DeedAmount>105.5</DeedAmount>
+            <MortgageAmount>133.5</MortgageAmount>
+            <ReleaseAmount>106.5</ReleaseAmount>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1202</LineNumber>
+            <LineDescription>City/County tax/stamps</LineDescription>
+            <DeedAmount>1255.00</DeedAmount>
+            <MortgageAmount>0.00</MortgageAmount>
+            <ReleaseAmount>0</ReleaseAmount>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1203</LineNumber>
+            <LineDescription>State tax/stamps</LineDescription>
+            <DeedAmount>5500.00</DeedAmount>
+            <MortgageAmount>0.00</MortgageAmount>
+            <ReleaseAmount>0</ReleaseAmount>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1204</LineNumber>
+            <LineDescription>Miscellaneous fee/taxes</LineDescription>
+            <DeedAmount>0</DeedAmount>
+            <MortgageAmount>0</MortgageAmount>
+            <ReleaseAmount>0</ReleaseAmount>
+          </HUDLine>
+          <HUDLine>
+            <LineNumber>1205</LineNumber>
+            <LineDescription>Miscellaneous fee/taxes</LineDescription>
+            <DeedAmount>0</DeedAmount>
+            <MortgageAmount>0</MortgageAmount>
+            <ReleaseAmount>0</ReleaseAmount>
+          </HUDLine>
+        </HUD>
+        <HUDRESPA2010>
+          <HUDLine1101>
+            <LineDescription>Title Services and lenders title premium (from GFE #4)</LineDescription>
+            <Amount>0</Amount>
+          </HUDLine1101>
+          <HUDLine1105>
+            <LineDescription>Lenders title policy limit $</LineDescription>
+            <Amount>0</Amount>
+          </HUDLine1105>
+          <HUDLine1106>
+            <LineDescription>Owners title policy limit $</LineDescription>
+            <Amount>0</Amount>
+          </HUDLine1106>
+          <HUDLine1201>
+            <LineDescription>Government recording charges</LineDescription>
+            <Amount>469.00</Amount>
+          </HUDLine1201>
+          <HUDLine1203>
+            <LineDescription>Transfer taxes</LineDescription>
+            <Amount>6755.00</Amount>
+          </HUDLine1203>
+          <ComparisonOfGFEandHUD1Charges_1201>
+            <LineDescription>Government recording charges</LineDescription>
+            <Amount>469.00</Amount>
+          </ComparisonOfGFEandHUD1Charges_1201>
+          <ComparisonOfGFEandHUD1Charges_1203>
+            <LineDescription>Government recording charges that cannot increase</LineDescription>
+            <Amount>6755.00</Amount>
+          </ComparisonOfGFEandHUD1Charges_1203>
+          <HUDLine1202>
+            <Deed2010>
+              <LineDescription>Deed $</LineDescription>
+              <Amount>105.50</Amount>
+            </Deed2010>
+            <Mortgage2010>
+              <LineDescription>Mortgage $</LineDescription>
+              <Amount>133.50</Amount>
+            </Mortgage2010>
+            <Release2010>
+              <LineDescription>Release $</LineDescription>
+              <Amount>106.50</Amount>
+            </Release2010>
+            <Assignment2010>
+              <LineDescription>Assignment $</LineDescription>
+              <Amount>19.00</Amount>
+            </Assignment2010>
+            <POA2010>
+              <LineDescription>POA $</LineDescription>
+              <Amount>104.50</Amount>
+            </POA2010>
+          </HUDLine1202>
+          <HUDLine1204>
+            <Deed2010>
+              <LineDescription>City/County tax/stamps</LineDescription>
+              <Amount>1255.00</Amount>
+            </Deed2010>
+            <Mortgage2010>
+              <LineDescription>Mortgage $</LineDescription>
+              <Amount>0.00</Amount>
+            </Mortgage2010>
+          </HUDLine1204>
+          <HUDLine1205>
+            <Deed2010>
+              <LineDescription>State tax/stamps</LineDescription>
+              <Amount>5500.00</Amount>
+            </Deed2010>
+            <Mortgage2010>
+              <LineDescription>Mortgage $</LineDescription>
+              <Amount>0.00</Amount>
+              <IntangibleTax>0</IntangibleTax>
+            </Mortgage2010>
+          </HUDLine1205>
+          <HUDLine1206>
+            <LineDescription>Miscellaneous Fee/Taxes</LineDescription>
+            <DeedAmount></DeedAmount>
+            <MortgageAmount></MortgageAmount>
+            <BuyerSplit>0.00</BuyerSplit>
+            <SellerSplit>0.00</SellerSplit>
+            <LenderSplit>0</LenderSplit>
+          </HUDLine1206>
+        </HUDRESPA2010>
+        <CFPB2015>
+          <CFPBTax>
+            <TaxType>DeedTax</TaxType>
+            <TotalTaxAmount>6755.00</TotalTaxAmount>
+            <TotalSellerSplit>6755.00</TotalSellerSplit>
+            <TaxingEntities>
+              <TaxingEntity>
+                <TaxingEntityJurisdiction>State</TaxingEntityJurisdiction>
+                <TaxingEntityName>Washington</TaxingEntityName>
+                <TaxAmount>5500.00</TaxAmount>
+                <BuyerSplit>0.00</BuyerSplit>
+                <SellerSplit>5500.00</SellerSplit>
+                <LenderSplit>0.00</LenderSplit>
+              </TaxingEntity>
+              <TaxingEntity>
+                <TaxingEntityJurisdiction>County</TaxingEntityJurisdiction>
+                <TaxingEntityName>Adams</TaxingEntityName>
+                <TaxAmount>1255.00</TaxAmount>
+                <BuyerSplit>0.00</BuyerSplit>
+                <SellerSplit>1255.00</SellerSplit>
+                <LenderSplit>0.00</LenderSplit>
+              </TaxingEntity>
+            </TaxingEntities>
+          </CFPBTax>
+        </CFPB2015>
+        <GFERESPA2010>
+          <GFE4>
+            <LineDescription>Title Insurance Premium</LineDescription>
+            <Amount>0</Amount>
+          </GFE4>
+          <GFE5>
+            <LineDescription>Owners Title Insurance Premium</LineDescription>
+            <Amount>0</Amount>
+          </GFE5>
+          <GFE7>
+            <LineDescription>Government recording charges</LineDescription>
+            <Amount>469.00</Amount>
+          </GFE7>
+          <GFE8>
+            <LineDescription>Transfer taxes</LineDescription>
+            <Amount>6755.00</Amount>
+          </GFE8>
+        </GFERESPA2010>
+        <MortgageFee>133.5</MortgageFee>
+        <MortgageTax>0.00</MortgageTax>
+        <MortgageNote></MortgageNote>
+        <DeedFee>105.5</DeedFee>
+        <DeedTax>6755.00</DeedTax>
+        <DeedNote></DeedNote>
+        <Assumptions>
+          <Assumption><![CDATA[THERE ARE LESS THAN 11 INDEXED NAMES ON THE DOCUMENT.]]></Assumption>
+          <Assumption><![CDATA[THERE IS ONLY ONE TITLE OR TRANSACTION PER DOCUMENT.]]></Assumption>
+          <Assumption><![CDATA[THE DOCUMENT MUST COMPLY W/ RULES AS OF 1/97 & 8/99.]]></Assumption>
+          <Assumption><![CDATA[EXCISE TAX APPLIES TO CONVEYANCE TRANSACTIONS AND $5.00 IS ADDED TO TAX. IF THE TRANSACTION IS NOT TAXABLE, A FEE OF $10.00 IS PAYABLE WITH THE EXCISE TAX FORM.]]></Assumption>
+        </Assumptions>
+      </Calculation>
+      <RecordingWorksheet>
+        <Office>
+          <County></County>
+          <CourierAddress1>210 West Broadway, Suite 200</CourierAddress1>
+          <CourierAddress2></CourierAddress2>
+          <CourierCityStateZIP>Ritzville, WA 99169</CourierCityStateZIP>
+          <Department>Attn: Real Estate Recording</Department>
+          <Fax>509-659-3254</Fax>
+          <Jurisdiction>Adams County Auditor</Jurisdiction>
+          <MailingAddress1>210 West Broadway, Suite 200</MailingAddress1>
+          <MailingAddress2></MailingAddress2>
+          <MailingCityStateZIP>Ritzville, WA 99169</MailingCityStateZIP>
+          <MoneyOrder>Not required.</MoneyOrder>
+          <Payee>Adams County Auditor</Payee>
+          <Phone>509-659-3253</Phone>
+          <PhoneExt></PhoneExt>
+          <RecordingOffice>Adams County</RecordingOffice>
+          <TimeZone>PST</TimeZone>
+          <Website>http://www.co.adams.wa.us</Website>
+        </Office>
+        <BasicRecordingFees>
+          <Heading>BASIC RECORDING FEES:</Heading>
+          <Fee>
+            <Description>Deed</Description>
+            <Amount>$103.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Deed of Trust</Description>
+            <Amount>$104.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Amendment/Modification</Description>
+            <Amount>$103.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Assignment of Deed of Trust</Description>
+            <Amount>$18.00</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Reconveyance/Satisfaction</Description>
+            <Amount>$103.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Power of Attorney</Description>
+            <Amount>$103.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+        </BasicRecordingFees>
+        <AdditionalRecordingFees>
+          <Heading>ADDITIONAL RECORDING FEES:</Heading>
+          <Fee>
+            <Description>Additional pages and attachments</Description>
+            <Amount>$1.00</Amount>
+            <Label>per additional page</Label>
+          </Fee>
+          <Fee>
+            <Description>Each caption or title after the first</Description>
+            <Amount>$103.50</Amount>
+            <Label>for the first page</Label>
+          </Fee>
+          <Fee>
+            <Description>Special nonconforming document</Description>
+            <Amount>$50.00</Amount>
+            <Label>per document (see state summary)</Label>
+          </Fee>
+          <Fee>
+            <Description>Other nonconforming document</Description>
+            <Amount>Not Accepted</Amount>
+            <Label></Label>
+          </Fee>
+          <Fee>
+            <Description>Required information missing from first page</Description>
+            <Amount>$1.00</Amount>
+            <Label>per instrument</Label>
+          </Fee>
+        </AdditionalRecordingFees>
+        <RecordingFeeNotes>
+          <Heading>RECORDING FEE NOTES:</Heading>
+          <Note><![CDATA[1. Certain special nonconforming documents can be recorded; others will be rejected. See "Format of Documents" section of State Summary for more information.]]></Note>
+          <Note><![CDATA[2. If the second title on a multiple instrument is an assignment of deed of trust or a trustee change (appointment, substitution or resignation), then the additional title fee is $18.00.]]></Note>
+          <Note><![CDATA[3. Basic fee for assignment of a mortgage is $103.50 for the first page.]]></Note>
+        </RecordingFeeNotes>
+        <Taxes>
+          <Heading>TRANSFER AND FINANCING FEES/TAXES:</Heading>
+          <Tax>
+            <Description>Real Estate Excise Tax</Description>
+            <Amount>$0.00250</Amount>
+            <Label>times consideration</Label>
+          </Tax>
+          <Note><![CDATA[The Real Estate Excise Tax Affidavit (Form 84 0001A) must accompany certain deeds to be recorded. Include a separate cashier's check for taxes generally plus $5.00, payable to County Treasurer. County Treasurer office 509-659-3227. See State Summary for tax tier details.]]></Note>
+        </Taxes>
+        <Searches>
+          <Heading>SEARCHES, COPIES AND CERTIFICATION:</Heading>
+          <Note><![CDATA[This office will perform limited searches of real estate records.]]></Note>
+          <Fee>
+            <Description>Copies made by office</Description>
+            <Amount>$1.00</Amount>
+            <Label>per page</Label>
+          </Fee>
+          <Fee>
+            <Description>Certification (in addition to copy fees)</Description>
+            <Amount>$3.00</Amount>
+            <Label>first page, plus $1.00 for each additional page</Label>
+          </Fee>
+        </Searches>
+        <RecordingNotes>
+          <Heading>DOCUMENTATION/RECORDING NOTES:</Heading>
+          <Note><![CDATA[Blanket assignments are not accepted.]]></Note>
+          <Note><![CDATA[Blanket releases are not accepted.]]></Note>
+          <Note><![CDATA[Originals of real estate documents are always returned after recording.]]></Note>
+          <Note><![CDATA[A self addressed stamped return envelope of the proper size is appreciated.]]></Note>
+          <Note><![CDATA[In subsequent related documents, only reference (book/page, doc#, etc.) to the original document is required.]]></Note>
+          <Note><![CDATA[Index for Deeds: General Index]]></Note>
+          <Note><![CDATA[Index for Mortgages: General Index]]></Note>
+          <Note><![CDATA[Common document errors include lack of cover sheet or formatting, incorrect fee, notarial certificate incomplete or seal missing, missing references, legal description or affidavit of excise tax missing from deeds, and document submitted to wrong county.]]></Note>
+          <Note><![CDATA[This office reports a document turnaround time of 2 days]]></Note>
+          <Note><![CDATA[Most recent annual document volume reported by this office: 0]]></Note>
+          <DocSystem>Auditors File #</DocSystem>
+          <DSExample></DSExample>
+        </RecordingNotes>
+        <LDDescription><![CDATA[Legal description required with all real estate instruments to be recorded.]]></LDDescription>
+        <PIN>
+          <PINRequired>PIN required on all real estate documents to be recorded.</PINRequired>
+          <PINName>Tax ID # or Parcel #</PINName>
+          <PINForm>0-000-00-000-0000</PINForm>
+        </PIN>
+        <OnlineSearching>None</OnlineSearching>
+        <ConformedCopies>This office will provide Conformed Copies. No additional fee.</ConformedCopies>
+        <UCCOfficials>
+          <Heading>RECORDING OFFICE STAFF:</Heading>
+          <Official>
+            <Description>Head Official</Description>
+            <Name>Heidi Hunt</Name>
+            <Title>County Auditor</Title>
+          </Official>
+          <Official>
+            <Description>Other Official</Description>
+            <Name>Jacque Laird (jacquel@co.adams.wa.us)</Name>
+            <Title>Deputy Recorder</Title>
+          </Official>
+        </UCCOfficials>
+      </RecordingWorksheet>
+      <DocumentLinks />
+    </Display>
+  </ErnstResponse>
+  <TitleResponse>
+    <CallForQuoteEndorsement>false</CallForQuoteEndorsement>
+    <CallForQuoteSettlement>false</CallForQuoteSettlement>
+    <ItemizedSettlementFees>
+      <SettlementFee>
+        <Code>ResidentialSaleEscrowServices</Code>
+        <Name>Title - Escrow Fee</Name>
+        <Amount>1000</Amount>
+        <SalesTax>101.20</SalesTax>
+        <CallForQuote>false</CallForQuote>
+      </SettlementFee>
+      <SettlementFee>
+        <Code>MobileSigningService</Code>
+        <Name>Title - Signing Agent Fee</Name>
+        <Amount>175.00</Amount>
+        <SalesTax>0</SalesTax>
+        <CallForQuote>false</CallForQuote>
+      </SettlementFee>
+      <SettlementFee>
+        <Code>ElectronicRecordingFees</Code>
+        <Name>Title - E-Recording Fee</Name>
+        <Amount>12.00</Amount>
+        <SalesTax>0</SalesTax>
+        <CallForQuote>false</CallForQuote>
+      </SettlementFee>
+    </ItemizedSettlementFees>
+    <LendersPolicy>
+      <Name>ALTAExtendedCoverageLoanPolicy</Name>
+      <Premium>616.0</Premium>
+      <SalesTax>52.98</SalesTax>
+      <CallForQuote>false</CallForQuote>
+      <FullPolicy>
+        <Name>ALTAExtendedCoverageLoanPolicy</Name>
+        <Premium>616.0</Premium>
+        <SalesTax>52.98</SalesTax>
+        <ItemizedCharges>
+          <Charge>
+            <Code>TitleLendersPolicy</Code>
+            <Name>Title - Lender's Title Policy</Name>
+            <Amount>616.0</Amount>
+          </Charge>
+        </ItemizedCharges>
+      </FullPolicy>
+      <SimoPolicy>
+        <Name>ALTAExtendedCoverageLoanPolicy</Name>
+        <Premium>616.0</Premium>
+        <SalesTax>52.98</SalesTax>
+        <ItemizedCharges>
+          <Charge>
+            <Code>TitleLendersPolicy</Code>
+            <Name>Title - Lender's Title Policy</Name>
+            <Amount>616.0</Amount>
+          </Charge>
+        </ItemizedCharges>
+      </SimoPolicy>
+      <ItemizedCharges>
+        <Charge>
+          <Code>TitleLendersPolicy</Code>
+          <Name>Title - Lender's Title Policy</Name>
+          <Amount>616.0</Amount>
+        </Charge>
+      </ItemizedCharges>
+    </LendersPolicy>
+    <OwnersPolicy>
+      <Name>ALTA Homeowner's Policy of Title Insurance</Name>
+      <Premium>1198.0</Premium>
+      <SalesTax>103.03</SalesTax>
+      <CallForQuote>false</CallForQuote>
+      <FullPolicy>
+        <Name>ALTA Homeowner's Policy of Title Insurance</Name>
+        <Premium>1198.0</Premium>
+        <SalesTax>103.03</SalesTax>
+        <ItemizedCharges>
+          <Charge>
+            <Code>TitleOwnersPolicy</Code>
+            <Name>Title - Owner's Title Policy</Name>
+            <Amount>1198.0</Amount>
+          </Charge>
+        </ItemizedCharges>
+      </FullPolicy>
+      <SimoPolicy>
+        <Name>ALTA Homeowner's Policy of Title Insurance</Name>
+        <Premium>1198.0</Premium>
+        <SalesTax>103.03</SalesTax>
+        <ItemizedCharges>
+          <Charge>
+            <Code>TitleOwnersPolicy</Code>
+            <Name>Title - Owner's Title Policy</Name>
+            <Amount>1198.0</Amount>
+          </Charge>
+        </ItemizedCharges>
+      </SimoPolicy>
+      <ItemizedCharges>
+        <Charge>
+          <Code>TitleOwnersPolicy</Code>
+          <Name>Title - Owner's Title Policy</Name>
+          <Amount>1198.0</Amount>
+        </Charge>
+      </ItemizedCharges>
+    </OwnersPolicy>
+    <Provider>
+      <ID>3372</ID>
+      <Name>Ticor Title West Seattle</Name>
+      <Address>4817 California Ave SW</Address>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98116-4414</Zip>
+      <Disclaimer>This Calculator is provided as a Residential Transaction tool. It is not intended to be used for Commercial Transactions. | The information used or statement of fees (the "Quote") produced from or through this site is provided "as is" "as available" and all warranties, express or implied, are expressly disclaimed (including but not limited to the disclaimer of any implied warranties of merchantability and fitness for a particular purpose). The Quote may contain errors, inaccuracies or other limitations. | The Company is not responsible for the accuracy of any fees for any products or services provided by third parties, including agents of the Company. | In no event shall the Company be liable for indirect, special, incidental or consequential damages incurred by any party. | Rates calculated on this website reflect those applied in a typical transaction. The rate you are actually charged may differ from the rate calculated here if the details of your transaction differ from those you selected in order to calculate the rate. Premium quotes are based on rates in effect on the date of this quote. Any changes to the approved rates between the date of this quote and the closing date may result in a change in the premium(s) charged. Under certain circumstances, you may qualify for a lower rate than the one shown here. | The sales tax shown in this quote is based on the assumption that escrow and title services are provided by the same Company location. If escrow and title services are provided by different Company locations or by different Companies the actual sales tax may differ from that shown in this quote, and the settlement agent should be contacted to obtain an accurate sales tax quote. (&lt;i&gt;for Title Services and Lender's Title Insurance&lt;/i&gt;) | The totals that the Rate Calculator Engine calculates include the charge for the title insurance policy premium and any additional endorsement charges that apply. The totals may not include any other amounts, such as charges/fees related to title search, examination, additional work charges, certification, or closing; inspection charges; additional chain or parcel charges; fees related to delayed release/reconveyance; order cancellation charges; release issuance fees; costs for reinsurance; and premiums or charges applicable to transactions involving extra-hazardous risk. | At this time, the Rate Calculator does not support endorsement-only transactions. If you want to price an endorsement(s) that is being issued subsequent to the underlying policy, you can still use this Calculator to arrive at the correct price for the endorsement(s). In that situation, the only charge incurred for the transaction will be the Endorsement Total(s) shown on the Rate Summary page; ignore the policy premium(s) and total(s). | Rates calculated on this website reflect those applied in a typical transaction. The rate you are actually charged may differ from the rate calculated here if the details of your transaction differ from those you selected in order to calculate the rate. Premium quotes are based on rates in effect on the date of this quote. Any changes to the approved rates between the date of this quote and the closing date may result in a change in the premium(s) charged. Under certain circumstances, you may qualify for a lower rate than the one shown here. | Simultaneous 2nd Loan - Additional fees for Title Insurance, Escrow Fees and Recording fees may apply. | Builder/Subdivider/Investor Rates - The Rate Calculator is not intended to be used for Builder/Subdivider/Investor transactions. | Closing Protection Letters - A fee for Closing Protection Letter, or similar coverage will be charged if the state where the closing takes place charges a closing protection fee. Closing is defined as signing the insured property related documents under the Company's supervision, either in a FNTG office or using a FNTG selected and approved mobile notary. If the insured documents are not signed under the Company's supervision, closing is deemed to take place in the location where the funds are disbursed. For closings that take place in a different state than the property location, please contact your settlement agent for a quote.</Disclaimer>
+      <Phone>2063939814</Phone>
+    </Provider>
+    <Audit>
+      <Item>
+        <Name>Request/LoanNumber</Name>
+        <Value></Value>
+      </Item>
+      <Item>
+        <Name>Request/LoanAmount</Name>
+        <Value>300000</Value>
+      </Item>
+      <Item>
+        <Name>Request/PurchaseAmount</Name>
+        <Value>316415</Value>
+      </Item>
+      <Item>
+        <Name>Request/OfficeID</Name>
+        <Value>FNTIC-12828</Value>
+      </Item>
+      <Item>
+        <Name>Request/RateProductId</Name>
+        <Value>100958</Value>
+      </Item>
+      <Item>
+        <Name>Request/ProviderId</Name>
+        <Value>3372</Value>
+      </Item>
+      <Item>
+        <Name>Request/IsGeneric</Name>
+        <Value>True</Value>
+      </Item>
+      <Item>
+        <Name>Request/IsTierOne</Name>
+        <Value>False</Value>
+      </Item>
+      <Item>
+        <Name>Request/TransType</Name>
+        <Value>1</Value>
+      </Item>
+      <Item>
+        <Name>Request/CustomerProductID</Name>
+        <Value>5499</Value>
+      </Item>
+      <Item>
+        <Name>Request/TransactionTypeID</Name>
+        <Value>1</Value>
+      </Item>
+      <Item>
+        <Name>Request/ProductTemplateID</Name>
+        <Value>128</Value>
+      </Item>
+      <Item>
+        <Name>Request/CustomerProductLocId</Name>
+        <Value>31293</Value>
+      </Item>
+      <Item>
+        <Name>Request/City</Name>
+        <Value></Value>
+      </Item>
+      <Item>
+        <Name>Request/County</Name>
+        <Value>Adams</Value>
+      </Item>
+      <Item>
+        <Name>Request/State</Name>
+        <Value>WA</Value>
+      </Item>
+      <Item>
+        <Name>Request/ZipCode</Name>
+        <Value></Value>
+      </Item>
+      <Item>
+        <Name>Response/QuoteID</Name>
+        <Value>10844338</Value>
+      </Item>
+      <Item>
+        <Name>Response/QuoteDate</Name>
+        <Value>4/23/2020 9:21:07 PM</Value>
+      </Item>
+      <Item>
+        <Name>Response/IsOverriddenLoanTitle</Name>
+        <Value>False</Value>
+      </Item>
+      <Item>
+        <Name>Response/ALTA Extended Coverage Loan Policy/PolicyBasePremium</Name>
+        <Value>616.0</Value>
+      </Item>
+      <Item>
+        <Name>Response/ALTA Homeowner's Policy of Title Insurance/PolicyBasePremium</Name>
+        <Value>1198.0</Value>
+      </Item>
+      <Item>
+        <Name>Settlement Fee Name Translation [ResidentialSaleEscrowServices] Residential Sale Escrow Services</Name>
+        <Value>Provider Name: Residential Sale Escrow Services; Ernst Name: Title - Escrow Fee</Value>
+      </Item>
+      <Item>
+        <Name>Settlement Fee Name Translation [MobileSigningService] Mobile Signing Service</Name>
+        <Value>Provider Name: Mobile Signing Service; Ernst Name: Title - Signing Agent Fee</Value>
+      </Item>
+      <Item>
+        <Name>Settlement Fee Name Translation [ElectronicRecordingFees] Electronic Recording Fees</Name>
+        <Value>Provider Name: Electronic Recording Fees; Ernst Name: Title - E-Recording Fee</Value>
+      </Item>
+    </Audit>
+  </TitleResponse>
+</Response>

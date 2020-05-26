@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetFeesForHomeLoanProductResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:noNamespaceSchemaLocation="GetFeesForHomeLoanProductResponse.xsd">
+  <version>1.0</version>
+  <requestId>502eebbb-b930-4634-bb69-e0e583cc9748</requestId>
+  <responseStatus>Success</responseStatus>
+  <responseSystemMessage></responseSystemMessage>
+  <body>
+    <fees>
+      <fee>
+        <referenceId>123</referenceId>
+        <name>Misc fee</name>
+        <loanEstimateSection>A</loanEstimateSection>
+        <hudLineNumber>900</hudLineNumber>
+        <includedInApr>false</includedInApr>
+        <amount>100</amount>
+        <paidBy>Borrower</paidBy>
+      </fee>
+      <fee>
+        <referenceId>456</referenceId>
+        <name>Other fee</name>
+        <loanEstimateSection>B</loanEstimateSection>
+        <hudLineNumber>901</hudLineNumber>
+        <includedInApr>true</includedInApr>
+        <amount>200</amount>
+        <paidBy>Seller</paidBy>
+      </fee>
+    </fees>
+  </body>
+</GetFeesForHomeLoanProductResponse> 
+

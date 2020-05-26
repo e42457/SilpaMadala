@@ -1,0 +1,335 @@
+{
+
+  "Identity": {
+    "Authority": "https://api.ernstpublishing.com/auth",
+    "Scope": "ernstcalculator"
+  },
+  "General": {
+    "Version": "3"
+  },
+  "Ernst": {
+    "FeeServiceEndpoint": "http://feeservice.ernstinfo.com/stg/processxml.asmx/Request"
+  },
+  "Authontication": {
+    "UserID": "SalesDemo",
+    "Password": "Demo123"
+  },
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.MSSqlServer" ],
+    "MinimumLevel": {
+      "Default": "Verbose",
+      "Override": {
+        "Microsoft": "Warning",
+        "Microsoft.AspNetCore.Hosting": "Warning",
+        "Microsoft.AspNetCore.Mvc": "Warning",
+        "System": "Warning"
+      }
+    },
+    "Enrich": [ "FromLogContext" ],
+    "WriteTo": [
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "WriteTo": [
+              {
+                "Name": "MSSqlServer",
+                "Args": {
+                  "connectionString": "Data Source=JD1LLSWEXCHD103.dcsr.site\\LSEXCHSQLCN01,28001; Initial Catalog=ErnstTransactionApi;Integrated Security=SSPI",
+                  "tableName": "ErnstOrderMessages",
+                  "autoCreateSqlTable": false,
+                  "restrictedToMinimumLevel": "Verbose",
+                  "columnOptionsSection": {
+                    "primaryKeyColumnName": "MessageID",
+                    "removeStandardColumns": [ "MessageTemplate", "Id", "Message", "Exception" ],
+                    "Level": {
+                      "storeAsEnum": false
+                    },
+                    "additionalColumns": [
+                      {
+                        "ColumnName": "ProductID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 10
+                      },
+                      {
+                        "ColumnName": "OrderID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "ClientTransactionID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+
+                      {
+                        "ColumnName": "Url",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 500
+                      },
+
+                      {
+                        "ColumnName": "InboundMessage",
+                        "DataType": "nvarchar",
+                        "AllowNull": true
+                      },
+                      {
+                        "ColumnName": "OutboundMessage",
+                        "DataType": "nvarchar",
+                        "AllowNull": true
+                      },
+                      {
+                        "ColumnName": "Status",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "TurnaroundTime",
+                        "DataType": "bigint",
+                        "AllowNull": true
+                      }
+                    ],
+                    "TimeStamp": {
+                      "columnName": "CreateDate",
+                      "convertToUtc": false
+                    },
+                    "properties": {
+                      "columnName": "DataXML",
+                      "excludeAdditionalProperties": true,
+                      "dictionaryElementName": "dict",
+                      "itemElementName": "item",
+                      "omitDictionaryContainerElement": false,
+                      "omitSequenceContainerElement": false,
+                      "omitStructureContainerElement": false,
+                      "omitElementIfEmpty": true,
+                      "propertyElementName": "prop",
+                      "rootElementName": "root",
+                      "sequenceElementName": "seq",
+                      "structureElementName": "struct",
+                      "usePropertyKeyAsElementName": false,
+                      "DataType": "xml"
+                    }
+                  }
+                }
+              }
+            ],
+            "Filter": [
+              {
+                "Name": "ByIncludingOnly",
+                "Args": { "expression": "@Properties['SourceContext'] = 'Ernst.OrderMessages'" }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "WriteTo": [
+              {
+                "Name": "MSSqlServer",
+                "Args": {
+                  "connectionString": "Server=JD1LLSWEXCHD103.dcsr.site\\LSEXCHSQLCN01,28001;Database=ErnstTransactionApi;Integrated Security=SSPI",
+                  "autoCreateSqlTable": false,
+                  "restrictedToMinimumLevel": "Verbose",
+                  "tableName": "ErnstOrderMessagesApplication",
+                  "columnOptionsSection": {
+                    "primaryKeyColumnName": "MessageID",
+                    "removeStandardColumns": [ "MessageTemplate", "Id", "Exception" ],
+                    "Level": {
+                      "columnName": "LogLevel",
+                      "DataType": "nvarchar",
+                      "AllowNull": true,
+                      "DataLength": 20,
+                      "storeAsEnum": false
+                    },
+                    "additionalColumns": [
+                      {
+                        "ColumnName": "ProductID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 10
+                      },
+                      {
+                        "ColumnName": "OrderID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "ClientTransactionID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "InboundMessage",
+                        "DataType": "nvarchar",
+                        "AllowNull": true
+                      },
+                      {
+                        "ColumnName": "AppName",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "Url",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 500
+                      },
+                      {
+                        "ColumnName": "MachineName",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      }
+                    ],
+                    "TimeStamp": {
+                      "columnName": "CreateDate",
+                      "convertToUtc": false
+                    },
+                    "Message": { "columnName": "ErrorMessage" },
+                    "properties": {
+                      "columnName": "Trace",
+                      "excludeAdditionalProperties": true,
+                      "dictionaryElementName": "dict",
+                      "itemElementName": "item",
+                      "omitDictionaryContainerElement": false,
+                      "omitSequenceContainerElement": false,
+                      "omitStructureContainerElement": false,
+                      "omitElementIfEmpty": true,
+                      "propertyElementName": "prop",
+                      "rootElementName": "root",
+                      "sequenceElementName": "seq",
+                      "structureElementName": "struct",
+                      "usePropertyKeyAsElementName": false,
+                      "DataType": "xml"
+                    }
+                  }
+                }
+              }
+            ],
+            "Filter": [
+              {
+                "Name": "ByExcluding",
+                "Args": { "expression": "@Properties['SourceContext'] = 'Ernst.OrderMessages' or ExceptionDetail is not null" }
+              }
+            ]
+
+          }
+        }
+      },
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "WriteTo": [
+              {
+                "Name": "MSSqlServer",
+                "Args": {
+                  "connectionString": "Server=JD1LLSWEXCHD103.dcsr.site\\LSEXCHSQLCN01,28001;Database=ErnstTransactionApi;Integrated Security=SSPI",
+                  "autoCreateSqlTable": false,
+                  "restrictedToMinimumLevel": "Verbose",
+                  "tableName": "ErnstOrderMessagesApplication",
+                  "columnOptionsSection": {
+                    "primaryKeyColumnName": "MessageID",
+                    "removeStandardColumns": [ "MessageTemplate", "Id", "Message" ],
+                    "Level": {
+                      "columnName": "LogLevel",
+                      "DataType": "nvarchar",
+                      "AllowNull": true,
+                      "DataLength": 20
+                    },
+                    "additionalColumns": [
+                      {
+                        "ColumnName": "ProductID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 10
+                      },
+                      {
+                        "ColumnName": "OrderID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "ClientTransactionID",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "InboundMessage",
+                        "DataType": "nvarchar",
+                        "AllowNull": true
+                      },
+                      {
+                        "ColumnName": "AppName",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      },
+                      {
+                        "ColumnName": "Url",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 500
+                      },
+                      {
+                        "ColumnName": "MachineName",
+                        "DataType": "varchar",
+                        "AllowNull": true,
+                        "DataLength": 50
+                      }
+                    ],
+                    "TimeStamp": {
+                      "columnName": "CreateDate",
+                      "convertToUtc": false
+                    },
+                    "Exception": { "columnName": "ErrorMessage" },
+                    "properties": {
+                      "columnName": "Trace",
+                      "excludeAdditionalProperties": true,
+                      "dictionaryElementName": "dict",
+                      "itemElementName": "item",
+                      "omitDictionaryContainerElement": false,
+                      "omitSequenceContainerElement": false,
+                      "omitStructureContainerElement": false,
+                      "omitElementIfEmpty": true,
+                      "propertyElementName": "prop",
+                      "rootElementName": "root",
+                      "sequenceElementName": "seq",
+                      "structureElementName": "struct",
+                      "usePropertyKeyAsElementName": false,
+                      "DataType": "xml"
+                    }
+                  }
+                }
+              }
+            ],
+            "Filter": [
+              {
+                "Name": "ByIncludingOnly",
+                "Args": { "expression": "ExceptionDetail is not null" }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "Client": {
+    "ProductID": 3
+  }
+
+
+}

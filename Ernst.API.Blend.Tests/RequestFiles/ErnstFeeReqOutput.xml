@@ -1,0 +1,24 @@
+﻿<Request>
+  <Version>3</Version>
+  <TransactionDate>2020-05-11T00:00:00+05:30</TransactionDate>
+  <ClientTransactionID>502eebbb-b930-4634-bb69-e0e583cc9748</ClientTransactionID>
+  <Authentication>
+    <UserID>SalesDemo</UserID>
+    <Password>Demo123</Password>
+  </Authentication>
+  <RequestInfo>
+    <Loan>
+      <ApplicationDate>2020-05-11T00:00:00+05:30</ApplicationDate>
+      <FirstTimeHomeBuyer>true</FirstTimeHomeBuyer>
+      <HELOC>true</HELOC>
+      <LoanPurpose>Purchase</LoanPurpose>
+      <RateType>Fixed</RateType>
+      <RefinanceSameLender>false</RefinanceSameLender>
+    </Loan>
+    <Property>
+      <NumberOfUnits>1</NumberOfUnits>
+      <ProjectLegalStructure>Unknown</ProjectLegalStructure>
+      <PropertyUse>PrimaryResidence</PropertyUse>
+    </Property>
+  </RequestInfo>
+</Request>

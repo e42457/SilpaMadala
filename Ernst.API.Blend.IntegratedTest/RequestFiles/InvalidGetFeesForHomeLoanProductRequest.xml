@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetFeesForHomeLoanProductRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:noNamespaceSchemaLocation="GetFeesForHomeLoanProductRequest.xsd">
+  <version>3</version>
+  <requestId>502eebbb-b930-4634-bb69-e0e583cc9748</requestId>    
+  <homeLoanApplication>
+    <borrowers>
+      <borrower>
+        <firstTimeHomeBuyer>true</firstTimeHomeBuyer>
+      </borrower>
+    </borrowers>
+    <property>      
+      <propertyTypegrgrg>SingleFamily</propertyType>
+      <propertyUsageType>PrimaryResidence</propertyUsageType>
+      <numberOfUnits>1</numberOfUnits>      
+      <propertyAddress>
+      	<cityhrhrrrh>Test</city>
+      	<state>CT</state>
+      	<county>Test City and borough</county>
+      </propertyAddress>
+      <appraisedValue>540</appraisedValue>
+      <purchasePrice>230</purchasePrice>
+    </property>
+    <homeLoan>
+      <product>
+      	<amortizationType>Fixed</amortizationType>      	
+      </product>
+      <purpose>Refinance</purpose>
+      <lienType>HELOC</lienType>
+      <sameLenderRefinance>false</sameLenderRefinance>
+      <loanAmount>4324</loanAmount>
+    </homeLoan>
+  </homeLoanApplication>
+</GetFeesForHomeLoanProductRequest>
